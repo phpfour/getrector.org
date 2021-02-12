@@ -82,7 +82,6 @@ COPY ./assets ./assets
 
 RUN yarn run build
 
-
 ####
 ## Build app itself - containing source codes and is designed to leverage Docker layers caching
 ####
